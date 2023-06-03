@@ -1,0 +1,312 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+.blogimg{
+    width:100%;
+    height:100vh;
+}
+.title{
+    position:absolute;
+    bottom:1px;
+    right:10px;
+    font-size:120px;
+    color:white;
+    letter-spacing:15px;
+    opacity:0.6;
+}
+.place1 h2{
+    text-align:center;
+    margin-top:3%;
+    margin-bottom:3%;
+    color:red;
+    opacity:0.5;
+}
+.pillars{
+    display:flex;
+
+}
+.pillars img{
+    width:40%;
+    height:40%;
+    margin:0 3% 0 3%;
+    border:2px solid black;
+}
+.pillars p{
+    margin:4% 3% 0 3%;
+    font-size:20px;
+    text-align:justify;
+}
+.place2 h2{
+    text-align:center;
+    margin-top:3%;
+    margin-bottom:3%;
+    color:red;
+    opacity:0.5;
+}
+.ramappa{
+    display:flex;
+    justify-content:space-evenly;
+}
+.ramappa img{
+    border:2px solid black;
+}
+.place2 p{
+    margin:4% 3% 0 3%;
+    font-size:20px;
+    text-align:justify;
+
+}
+.place3 h2{
+    text-align:center;
+    margin-top:3%;
+    margin-bottom:3%;
+    color:red;
+    opacity:0.5;
+
+}
+.place3 img{
+    display:flex;
+    justify-content:space-evenly;
+   text-align:center;
+   width:70%;
+   height:60%;
+   margin-left:15%;
+   border:2px solid black;
+}
+.place3 p{
+    margin:4% 3% 0 3%;
+    font-size:20px;
+    text-align:justify;
+}
+.last{
+    display:flex;
+    justify-content:space-evenly;
+    color:white;
+    background-color:black;
+    height:70vh;
+    margin-top:4%;
+}
+.authorhead{
+    position:absolute;
+    margin-top:150px;
+    color:yellow;
+    opacity:0.5;
+}
+.authorcontent{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:90%;
+}
+.authorphoto img{
+    padding:0 20px;
+    border-radius:50%;
+}
+.authordetails{
+    font-size:18px;
+    line-height:25px;
+}
+.form{
+    margin-top:100px;
+    
+}
+.form h4{
+    color:aqua;
+    opacity:0.8;
+}
+.form label{
+    color:orange;
+    opacity:0.7;
+    font-size:18px;
+}
+footer p{
+    padding:10px;
+    text-align:center;
+}
+.name{
+    padding:0 5px;
+    font-size:15px;
+}
+.textarea
+{
+    padding:0 5px;
+    font-size:15px;
+}
+.button{
+    padding:5px 10px;
+    border-radius:50px;
+}
+
+.button:hover{
+    background-color:aquamarine;
+}
+footer p::after{
+    content:"@Nari";
+    float:right;
+
+}
+@media screen and (max-width:1028px){
+    .title{
+       font-size:100px;
+    }
+    .pillars p{
+        font-size:18px;
+        text-align:justify;
+    }
+    .place2 p{
+        font-size:18px;
+        text-align:justify;
+    }
+    .place3 p{
+        font-size:18px;
+        text-align:justify;
+    }
+}
+@media screen and (max-width:800px){
+    .title{
+        font-size:80px;
+        letter-spacing:13px;
+     }
+     .pillars p{
+         font-size:14px;
+         text-align:justify;
+     }
+     .place2 p{
+         font-size:14px;
+         text-align:justify;
+     }
+     .place3 p{
+         font-size:14px;
+         text-align:justify;
+     }
+
+}
+@media screen and (max-width:700px){
+    .title{
+        font-size:70px;
+        letter-spacing:12px;
+     }
+     .pillars p{
+         font-size:12px;
+         text-align:justify;
+     }
+     .place2 p{
+         font-size:12px;
+         text-align:justify;
+     }
+     .place3 p{
+         font-size:12px;
+         text-align:justify;
+     }
+     .ramappa img{
+        width:200px;
+        height:200px;
+     }
+
+}
+@media screen and (max-width:580px){
+    .title{
+        font-size:50px;
+        letter-spacing:10px;
+     }
+     .pillars p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .place2 p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .place3 p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .ramappa img{
+        width:150px;
+        height:150px;
+     }
+
+}
+@media screen and (max-width:460px){
+    .title{
+        font-size:40px;
+        letter-spacing:8px;
+     }
+     .pillars{
+        display:flex;
+        flex-direction:column;
+     }
+     .pillars img{
+        margin-left:120px;
+     }
+    
+     .pillars p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .place2 p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .place3 p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .ramappa img{
+        width:120px;
+        height:120px;
+     }
+
+}
+@media screen and (max-width:370px){
+    .title{
+        font-size:30px;
+        letter-spacing:6px;
+     }
+     .pillars{
+        display:flex;
+        flex-direction:column;
+     }
+     .pillars img{
+        margin-left:110px;
+     }
+    
+     .pillars p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .place2 p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .place3 p{
+         font-size:11px;
+         text-align:justify;
+     }
+     .ramappa img{
+        width:110px;
+        height:11S0px;
+     }
+     .last{
+        display:flex;
+        flex-direction:column;
+        color:white;
+        background-color:black;
+        height:70vh;
+        margin-top:4%;
+     }
+     .authorcontent{
+        margin-top:30px;
+     }
+     .authorhead{
+        position:absolute;
+        margin-top:1px;
+     }
+     .form{
+        margin-top:20px;
+        margin-left:10px;
+     }
+
+}
